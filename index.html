@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header><br><br>
+    <section id="home" class="hero">
+        <div class="hero-image">
+            <img src="pic.jpg" alt="Profile Photo">
+        </div>
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">SANJAY KUMAR T</span></h1>
+            <p id="typing-text"></p>
+            <button onclick="scrollToSection('contact')">Hire Me</button>
+        </div>
+    </section>
+    <br>
+    <section id="about" class="about fade-in">
+        <h2>About Me</h2>
+        <p>I’m a Full Stack Developer with experience in building responsive web applications using modern technologies like HTML, CSS, JavaScript, React,Python, and databases. 
+            I love solving problems and creating beautiful, functional web solutions.</p>
+    </section>
+    <br><br>
+    <section id="skills" class="skills fade-in">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React.js</div>
+            <div class="skill">Python</div>
+            <div class="skill">MySQL</div>
+        </div>
+    </section>
+    <br><br>
+    <section id="projects" class="projects fade-in">
+        <h2>Projects</h2>
+        <div class="project-cards">
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p> E-Commerce Platform with Real-Time Inventory and Admin Dashboard.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p> Online Food Ordering System.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Three</h3>
+                <p>Portfolio website with smooth animations and contact form.</p>
+            </div>
+        </div>
+        <section id="resume" class="resume fade-in">
+    <h2>My Resume</h2>
+    <p>You can view or download my resume below:</p>
+    <div class="resume-container">
+        <iframe src="Sanjay Resume.pdf" width="50%" height="300px" style="border: none;"></iframe>
+    </div>
+    <br> 
+    <a href="Sanjay Resume.pdf" download class="download-btn">📄 Download Resume</a>
+</section>
+
+    </section><br><br>
+    <section id="contact" class="contact fade-in">
+        <h2>Contact Me</h2><br>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2025 SANJAY KUMAR T. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
